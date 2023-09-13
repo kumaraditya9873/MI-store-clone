@@ -1,0 +1,50 @@
+.topnav {
+  z-index: 1000;
+  background-color: white;
+  padding: 1vmax;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+  /* grid-template-columns: 5fr 2fr; */
+  justify-content: space-between;
+}
+
+.topnav > div {
+  padding: 0.5max 4vmax;
+  display: flex;
+  align-items: center;
+}
+
+.navlinks {
+  color: rgb(59, 59, 59);
+  text-decoration: none;
+  margin: 1vmax 1.2vmax;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 1.1vmax;
+}
+
+.navlinks:hover {
+  color: orangered;
+}
+
+.logo {
+  background-color: orangered;
+  width: 58px;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  right: 2 vmax;
+}
+
+#logoImage {
+  transition: all 0.2s;
+  transform: translateX(-58px);
+}
+
+#logoImage:hover {
+  transform: translateX(0);
+}
