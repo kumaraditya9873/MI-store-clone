@@ -59,7 +59,7 @@ const Topnav = () => {
           LifeStyle
         </Link>
       </div>
-      <div className="right content">
+      <div className="right-content">
         <Link className="navlinks">Discover</Link>
         <Link className="navlinks">Support</Link>
         <Link className="navlinks">{searchIcon}</Link>
